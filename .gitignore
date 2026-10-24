@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+*.local
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Test artifacts
+playwright-report/
+test-results/
+blob-report/
+screenshots-tmp/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
